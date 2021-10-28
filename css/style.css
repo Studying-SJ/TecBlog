@@ -1,0 +1,109 @@
+/*Reset formatação padrão do navegador*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Heveltica, sans-serif;
+	background: #e6e6e6;
+}
+
+/* **** Formatações Gerais da pagina **** */
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+h2{
+	color: #f7b600;
+}
+h3{
+	color: #565656;
+	background: #ccc;
+	padding: 5px;
+}
+
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #aaa;
+	padding: 8px 12px;
+}
+a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+.branco{
+	color: white;
+}
+
+/* **** Layout da pagina **** */
+#header{
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+
+#main{
+	
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+/* **** Formatações do Menu da pagina **** */
+
+#menu-bar a:link, a:visited{
+	color: #ffa;
+	padding: 8px 12px;
+}
+#menu-bar a:hover{
+	color: orange;
+	background: #fff;
+	text-decoration: none;
+}
+#footer{
+	text-align: center;
+	background: #ccc;
+	clear: both;
+	padding: 15px;
+}
+/* **** Barra lateral **** */
+#aside-bar{
+	background: #fff;
+	width: 240px;
+	float: right;
+}
+.conteudo-lateral{
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+}
+ 
+/* **** Formatações dos Elementos das paginas **** */
+/*Formatação para os Posts*/
+#logo, #menu-bar{
+	padding: 10px;
+}
+.data-post{
+	display: block;
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;	
+}
+#post{
+	width: 660px;
+	background: #fff;
+	float: left;
+}
+
+.posts{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #fff;
+}
